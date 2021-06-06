@@ -6,3 +6,4 @@
 -   pip freeze > requirements.txt
 -   django-admin startproject backend .
 -   django-admin startapp frontend
+-   python manage.py runserver
