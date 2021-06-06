@@ -4,6 +4,11 @@
 -   activate.bat
 -   pip install django djangorestframework
 -   pip freeze > requirements.txt
--   django-admin startproject backend .
+-   django-admin startproject backend
+-   cd backend
 -   django-admin startapp frontend
 -   python manage.py runserver
+-   cd ..
+-   npx create-react-app frontend
+-   cd frontend
+-   npm run build
