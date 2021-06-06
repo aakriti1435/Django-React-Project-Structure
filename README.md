@@ -2,3 +2,7 @@
 -   cd env
 -   cd Scripts
 -   activate.bat
+-   pip install django djangorestframework
+-   pip freeze > requirements.txt
+-   django-admin startproject backend .
+-   django-admin startapp frontend
